@@ -6,6 +6,7 @@
 * use **git clone <rep url>**, you will be asked for credentials
 * folders is created. Ready!
 
+
 ##### Editing files, seeing status
 
 * edit files as you would normally do
@@ -13,17 +14,20 @@
 * use **git status** to see overview of changed, not commited files
 * use **git diff <filename>** to see differences between staged and changed files
 
+
 ##### Staging files, ready to be commited
 
 * use **git add <filename>** to stage file
 * use **git status** again to see all staged files
 * **!!!!** use **git status -s** to have a brief status overview
+
  
 ##### Committing files
 
 * use **git commit** and a text editor will open where the commit message can be edited
 * alternatively use **git commit -m <message>** to quickly commit using small message
 * 
+
 
 ##### Removing and moving files
 
@@ -37,6 +41,15 @@ Moving:
 
 * use **git mv <old_file> <new_file>** to move file around (probably including possible directory path)
 
+
+##### Push it out!
+
+* use **git push** to commit to associated repository on Github.com
+ 
+
+##### Some words
+
+I am sure more can be done and more knowledge acquired, but now at least I can work on this!
 
 
 **Source**: [github manual](http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
