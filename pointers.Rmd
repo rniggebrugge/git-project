@@ -6,5 +6,12 @@
 * use **git clone <rep url>**, you will be asked for credentials
 * folders is created. Ready!
 
+### Editing files, seeing status
+
+* edit files as you would normally do
+* working with flat (text) files works best, otherwise it is difficult to keep track of changes
+* use *git status* to see overview of changed, not commited files
+
+
 
 Source: [github manual](http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
