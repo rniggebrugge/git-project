@@ -1,6 +1,6 @@
-## Some pointers on using Github from bash
+#### Some pointers on using Github from bash
 
-#### Cloning existing repository
+##### Cloning existing repository
 
 * point bash to folder where you want to download rep to
 * use **git clone <rep url>**, you will be asked for credentials
@@ -13,19 +13,19 @@
 * use **git status** to see overview of changed, not commited files
 * use **git diff <filename>** to see differences between staged and changed files
 
-### Staging files, ready to be commited
+##### Staging files, ready to be commited
 
 * use **git add <filename>** to stage file
 * use **git status** again to see all staged files
 * **!!!!** use **git status -s** to have a brief status overview
  
-### Committing files
+##### Committing files
 
 * use **git commit** and a text editor will open where the commit message can be edited
 * alternatively use **git commit -m <message>** to quickly commit using small message
 * 
 
-### Removing and moving files
+##### Removing and moving files
 
 Removing:
 
