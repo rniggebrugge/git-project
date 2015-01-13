@@ -1,12 +1,12 @@
 ## Some pointers on using Github from bash
 
-### Cloning existing repository
+#### Cloning existing repository
 
 * point bash to folder where you want to download rep to
 * use **git clone <rep url>**, you will be asked for credentials
 * folders is created. Ready!
 
-### Editing files, seeing status
+##### Editing files, seeing status
 
 * edit files as you would normally do
 * working with flat (text) files works best, otherwise it is difficult to keep track of changes
