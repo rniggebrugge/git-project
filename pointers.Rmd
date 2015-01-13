@@ -10,8 +10,33 @@
 
 * edit files as you would normally do
 * working with flat (text) files works best, otherwise it is difficult to keep track of changes
-* use *git status* to see overview of changed, not commited files
+* use **git status** to see overview of changed, not commited files
+* use **git diff <filename>** to see differences between staged and changed files
+
+### Staging files, ready to be commited
+
+* use **git add <filename>** to stage file
+* use **git status** again to see all staged files
+* **!!!!** use **git status -s** to have a brief status overview
+ 
+### Committing files
+
+* use **git commit** and a text editor will open where the commit message can be edited
+* alternatively use **git commit -m <message>** to quickly commit using small message
+* 
+
+### Removing and moving files
+
+Removing:
+
+* use **rm <filename>**
+* then **git rm <filename>**
+* the next commit it will be gone
+
+Moving:
+
+* use **git mv <old_file> <new_file>** to move file around (probably including possible directory path)
 
 
 
-Source: [github manual](http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+**Source**: [github manual](http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
