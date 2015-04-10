@@ -1,5 +1,7 @@
 #### Some pointers on using Github from bash
 
+Goog tutorial: https://www.atlassian.com/git/tutorials/setting-up-a-repository
+
 ##### Setting up profile
 
 * *git config --global user.name  <my name>*
